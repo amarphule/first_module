@@ -12,7 +12,7 @@ class FirstController extends ControllerBase {
   public function content() {
     return array(
       '#type' => 'markup',
-      '#markup' => t('Hello world'),
+      '#markup' => t('Hello world, Welcome to my first module'),
     );
   }
 }
